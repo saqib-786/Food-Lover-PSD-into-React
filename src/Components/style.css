@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    margin: 0px 50px 0px 50px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    
+    
+}
+
+nav h5{
+    color: white;
+    font-size: 1.2em;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+    text-transform: uppercase;
+
+    
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.active{
+    color: #FE8F00 !important;
+}
+
+#header_img{
+    background-image: url('../Images/Header\ Image.png');
+    background-size: contain;
+    height: 25vw;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(300deg);
+}
+
+#menu_box{
+    padding:50px 10px 50px 10px ;
+    background-color: #17181E;
+}
+#menu_box h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#card_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#best_meal{
+    background-color: #FE8F00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px 0 50px 0; */
+    height: 500px;
+    margin-top: 50px;
+    
+}
+
+#best_meal div{
+    width: 50%;
+
+}
+#layer_1_bg{
+    background-image: url('../Images/Layer\ 1.png');
+    background-size: contain;
+    width: 50%;
+    min-height: 40vw;
+    background-repeat: no-repeat;
+    
+}
+
+#meal_para{
+    width: 60%;
+    text-align: justify;
+    margin-top: 20px;
+    color: white;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+#layerImage{
+    width: 600px;
+    position: relative;
+    z-index: 2;
+    margin-left: 10px;
+}
+
+#meal{
+    color: white;
+}
+
+#footer{
+    background-color: #17181E !important;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.sciol_icon{
+    width: 32px;
+    margin: 30px 20px 0px 0px;
+}
+
+#about_us{
+    background-color: #17181E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 40vw;
+}
+
+
+#about_img_container img{
+    margin: 10px;
+    height: 35rem;
+
+    
+}
+
+#para_div{
+    width: 50%;
+
+}
+#para_div p{
+    color: white;
+    width: 90%;
+    font-weight: bold;
+    /* text-align: justify;
+    text-justify: inter-word; */
+    
+}
+
+#para_div h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#Food_container{
+    background-color: #FE8F00;
+    color: white;
+    padding: 80px 80px;
+    background-size: 20% 40%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    min-height: 40vw;
+    background-image: url('../Images/Layer\ 2.png');
+    background-size: 40% 60%;
+    background-position: right bottom;
+    word-spacing: 2px;
+}
+
+#Food_container p{
+    width: 50%;
+}
+
+
+#food_container{
+    color: white;
+    background-color: #17181E;
+    text-align: center;
+    padding: 20px 20px 50px 20px;
+    
+
+}
+#food_container h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.food_card_cotainer{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+position: relative;
+text-align: center;
+padding: 30px 0px 30px 0px;
+
+}
+
+
+
+#enjoy_container{
+    background-image: url('../Images/Background\ 2.png');
+    background-size: 100% 100%;
+    min-height: 50vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+#food_box{
+    text-align: center;
+    border: 5px solid #FE8F00;
+    padding: 40px 20px 40px 20px;
+    font-weight: bold;
+    
+
+}
+
+
+.food_card{
+    width: 30rem;
+    margin: 10px;
+    cursor: pointer;
+    
+    
+}
+.hidden_card{
+    z-index: 9;
+    background-color: black;
+    padding: 20px;
+    margin:  0 auto 0 auto;
+    width: 25.5rem;
+    position: relative;
+    bottom: 50.4%;
+    height: 483px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    
+
+}
+
+
+
+.hidden_card button{
+    width: 6rem;
+    height: 2.5rem;
+    margin: 10px;
+    background-color: #FE8F00;
+    color: white;
+    cursor: pointer;
+}
+
+.HiddenNavbar{
+    display: none;
+
+}
+
+.hidden_nav_list{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 55555555;
+    margin-left: 10px;
+}
+
+.hidden_nav_list li{
+    list-style: none;
+    color: white;
+    position: relative;
+    z-index: 55555555;
+    top: 0;
+    left: 0;
+}

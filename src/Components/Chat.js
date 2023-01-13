@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { connect } from 'react-redux';
 const Chat = () => {
   // useState hook to manage the state of the chat messages
   const [messages, setMessages] = useState([]);
@@ -36,5 +36,7 @@ const Chat = () => {
     </div>
   );
 };
+const mapStateToProps=(state)=>({
 
-export default Chat;
+})
+export default connect(mapStateToProps,null)(Chat);

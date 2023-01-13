@@ -10,10 +10,9 @@ class AppRouter extends React.Component{
             <>
             <Router>
                 <Routes>
-                <Route  path='/Chat' element={<Chat/>}  />
-                <Route  excat path='/' element={<Home/>}  />
+                <Route  path='/' element={<Chat/>}  />
+                <Route  excat path='/Home' element={<Home/>}  />
                 <Route path='/Contact' element={<Contact/>}/>
-
                 </Routes>
             </Router>
             </>
